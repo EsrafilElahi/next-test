@@ -1,0 +1,44 @@
+.home {
+    margin-top: 30px;
+    text-align: center;
+    padding-bottom: 30px;
+  }
+  
+  .name {
+    text-align: center;
+    padding: 17px 10px;
+    margin: 7px 50px;
+    transition: ease 0.5s all;
+    border: 1px solid rgba(189, 189, 189, 0.308);
+    width: 25rem;
+  }
+  
+  .name:hover {
+    border: 1px solid rgba(231, 141, 6, 0.795);
+    color: rgba(231, 141, 6, 0.795);
+    cursor: pointer;
+  }
+  
+  .container {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .detailContainer{
+      text-align: center;
+  }
+  
+  .detail{
+      padding: 18px 0px;
+  }
+  
+  .detailName{
+      padding-top: 20px;
+      font-weight: 500;
+      max-width:50%;
+      margin: 0 auto;
+  }
+  
+  .detailName span{
+      font-weight: 700;
+  }

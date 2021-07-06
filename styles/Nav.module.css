@@ -1,0 +1,27 @@
+.nav {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+}
+
+.navContainer {
+  background: rgba(0, 0, 0, 0.411);
+  height: 3rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.nav li {
+  list-style: none;
+  padding: 0 10px;
+  font-weight: 600;
+  color: rgba(8, 1, 1, 0.541);
+  transition: ease .3s color;
+}
+
+.nav li:hover {
+  color: rgb(0, 0, 0);
+}

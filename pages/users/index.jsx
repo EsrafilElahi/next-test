@@ -3,7 +3,7 @@ import Link from 'next/link'
 import styles from '../../styles/Users.module.css'
 
 
-export async function getStaticProps() {
+export async function getServerSideProps() {
   const req = await fetch('https://jsonplaceholder.typicode.com/comments')
   const res = await req.json()
   const data = await res.slice(0, 50)

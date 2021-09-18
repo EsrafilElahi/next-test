@@ -9,9 +9,16 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@hassanmojab/react-modern-calendar-datepicker": "^3.1.7",
+    "date-object": "^2.1.1",
     "next": "11.0.1",
     "react": "17.0.2",
-    "react-dom": "17.0.2"
+    "react-advance-jalaali-datepicker": "^1.3.2",
+    "react-date-object": "^2.1.4",
+    "react-dom": "17.0.2",
+    "react-hichestan-datetimepicker": "^3.0.24",
+    "react-modern-calendar-datepicker": "^3.1.6",
+    "react-multi-date-picker": "^3.1.4"
   },
   "devDependencies": {
     "eslint": "7.30.0",

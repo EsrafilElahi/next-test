@@ -1,5 +1,5 @@
 # برای محیط توسعه Next.js
-FROM node:latest
+FROM node:16.13.2-buster
 
 WORKDIR /app
 

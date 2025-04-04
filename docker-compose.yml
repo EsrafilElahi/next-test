@@ -1,0 +1,20 @@
+version: '3'
+
+services:
+  nextjs:
+    build: .
+    volumes:
+      - .:/app
+    ports:
+      - "3000:3000"
+    command: npm run dev
+    restart: always
+
+  nginx:
+    build: ./nginx
+    ports:
+      - "80:80"
+      - "443:443"
+    depends_on:
+      - nextjs
+    restart: always
